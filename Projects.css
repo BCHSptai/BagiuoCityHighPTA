@@ -7132,8 +7132,6 @@ a.text-dark:hover, a.text-dark:focus {
     border-color: #dee2e6; } }
 
     .projects img{
-    margin-left: 130px;
-	  width: 260px;
-	  height: 260px;
-	  border-radius: 50%;
+      width: 360px;
+      height: 360px;
     }
