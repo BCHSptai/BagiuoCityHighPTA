@@ -392,13 +392,11 @@ mark,
 
 .img-fluid {
   max-width: 100%;
-  height: auto; }
-
-.center{
+  height: auto;
   display: block;
   margin-left:auto;
-  margin-right:auto;
-  width:50%; }
+  margin-right:auto; }
+
 
 .img-thumbnail {
   padding: 0.25rem;
