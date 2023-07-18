@@ -46,13 +46,24 @@
               <div class="col-md-12 mx-auto" style="">
                 <h3 class="display-3 text-center" contenteditable="true"><b>CITY HIGH PTA</b></h3>
                 <p class="lead text-justify">Cover is a one-page template for building simple and beautiful home pages. Download, edit the text, and add your own fullscreen background photo to make it your own.</p>
-                <a href="#" class="btn btn-lg btn-primary"><b class="">Learn more</b></a>
-              </div>
+                <a href="#container2" id="learnMoreBtn" class="btn btn-lg btn-primary"><b class="">Learn more</b></a>
+                <script>
+                  document.getElementById("learnMoreBtn").addEventListener("click", function(event) {
+                      event.preventDefault();
+                      const container2 = document.getElementById("container2");
+                      const offset = container2.getBoundingClientRect().top;
+                      window.scrollBy({
+                          top: offset,
+                          behavior: "smooth"
+                      });
+                  });
+              </script>
             </div>
           </div>
         </div>
-        <div class="py-5">
-          <div class="container">
+      </div>
+      <div id="container2" class="py-5">
+        <div class="container2">
             <div class="row">
               <div class="col-md-12">
                 <div class="carousel slide" data-ride="carousel" id="carousel">
